@@ -1,0 +1,35 @@
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 19px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Merriweather', serif;
+}
+
+h1.title {
+	font-size: 30px;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.paper {
+	margin-bottom: 30px;
+}
+
+hr.title-block {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	background: black;
+	height: 8px;
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 750px;
+	}
+}
