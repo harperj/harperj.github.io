@@ -1,6 +1,6 @@
 * {
 	font-family: 'Lato', sans-serif;
-	font-size: 19px;
+	font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a, a:hover, a:visited {
 	color: #480860;
+}
+
+a.paper-title {
+	font-weight: 700;
 }
 
 em {
