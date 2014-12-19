@@ -1,13 +1,26 @@
 * {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 19px;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Merriweather', serif;
+	color: black;
+}
+
+a, a:hover, a:visited {
+	color: #480860;
+}
+
+em {
+	color: black;
 }
 
 h1.title {
+	background-color: #480860;
+	color: white;
+	padding: 7px;
+	margin-top: 0px;
 	font-size: 30px;
 	font-weight: 900;
 }
@@ -18,7 +31,7 @@ h2 {
 }
 
 .paper {
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 hr.title-block {
